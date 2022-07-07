@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/regrex-tutorial-for-ics/static/css/main.877a48fd.css",
-    "main.js": "/regrex-tutorial-for-ics/static/js/main.c640c7c8.js",
+    "main.css": "/regrex-tutorial-for-ics/static/css/main.fd0350e9.css",
+    "main.js": "/regrex-tutorial-for-ics/static/js/main.145883ed.js",
     "react-syntax-highlighter/refractor-core-import.js": "/regrex-tutorial-for-ics/static/js/react-syntax-highlighter/refractor-core-import.62c5c7cd.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/regrex-tutorial-for-ics/static/js/react-syntax-highlighter_languages_refractor_abap.4f2dc3d7.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/regrex-tutorial-for-ics/static/js/react-syntax-highlighter_languages_refractor_actionscript.7272da35.chunk.js",
@@ -156,8 +156,8 @@
     "react-syntax-highlighter_languages_refractor_yaml.js": "/regrex-tutorial-for-ics/static/js/react-syntax-highlighter_languages_refractor_yaml.6778ebf7.chunk.js",
     "static/js/787.fdbcd536.chunk.js": "/regrex-tutorial-for-ics/static/js/787.fdbcd536.chunk.js",
     "index.html": "/regrex-tutorial-for-ics/index.html",
-    "main.877a48fd.css.map": "/regrex-tutorial-for-ics/static/css/main.877a48fd.css.map",
-    "main.c640c7c8.js.map": "/regrex-tutorial-for-ics/static/js/main.c640c7c8.js.map",
+    "main.fd0350e9.css.map": "/regrex-tutorial-for-ics/static/css/main.fd0350e9.css.map",
+    "main.145883ed.js.map": "/regrex-tutorial-for-ics/static/js/main.145883ed.js.map",
     "refractor-core-import.62c5c7cd.chunk.js.map": "/regrex-tutorial-for-ics/static/js/react-syntax-highlighter/refractor-core-import.62c5c7cd.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.4f2dc3d7.chunk.js.map": "/regrex-tutorial-for-ics/static/js/react-syntax-highlighter_languages_refractor_abap.4f2dc3d7.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.7272da35.chunk.js.map": "/regrex-tutorial-for-ics/static/js/react-syntax-highlighter_languages_refractor_actionscript.7272da35.chunk.js.map",
@@ -313,7 +313,7 @@
     "787.fdbcd536.chunk.js.map": "/regrex-tutorial-for-ics/static/js/787.fdbcd536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.877a48fd.css",
-    "static/js/main.c640c7c8.js"
+    "static/css/main.fd0350e9.css",
+    "static/js/main.145883ed.js"
   ]
 }
