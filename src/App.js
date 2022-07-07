@@ -25,12 +25,14 @@ export const App = () => {
     "A Brief History of Regular Expression",
     "Regular Expression In Nutshell",
     "Patterns of Regular Expression",
+    "Quiz",
   ]
 
   const tableOfContentIds = [
     "table-of-content",
     "nutshell",
     "patterns",
+    "quiz",
   ]
 
   const onClickHandle = (e) => {
@@ -231,7 +233,7 @@ export const App = () => {
               มันก็จะมีหน้าตาดังด้านล่าง (จะยกตัวอย่างเฉพาะที่ใช้กันบ่อยๆ)
             </div>
             
-            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-slate-300 p-4">
+            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-cyan-800 text-white p-4">
               <div className="font-semibold text-md md:text-md pl-3">
                 Any
               </div>
@@ -249,7 +251,7 @@ export const App = () => {
               </div>
             </div>
               
-            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-slate-300 p-4">
+            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-cyan-800 text-white p-4">
               <div className="font-semibold text-md md:text-md pl-3">
                 Word, Number, White space
               </div>
@@ -276,7 +278,7 @@ export const App = () => {
               </div>
             </div>
             
-            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-slate-300 p-4">
+            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-cyan-800 text-white p-4">
               <div className="font-semibold text-md md:text-md pl-3">
                 Not Word, Number, White space
               </div>
@@ -303,7 +305,7 @@ export const App = () => {
               </div>
             </div>
             
-            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-slate-300 p-4">
+            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-cyan-800 text-white p-4">
               <div className="font-semibold text-md md:text-md pl-3">
                 Start With, End with
               </div>
@@ -324,7 +326,7 @@ export const App = () => {
               </div>
             </div>
               
-            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-slate-300 p-4">
+            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-cyan-800 text-white p-4">
               <div className="font-semibold text-md md:text-md pl-3">
                 Accept abc
               </div>
@@ -345,7 +347,7 @@ export const App = () => {
               </div>
             </div>
 
-            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-slate-300 p-4">
+            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-cyan-800 text-white p-4">
               <div className="font-semibold text-md md:text-md pl-3">
                 Accept abc or def
               </div>
@@ -366,7 +368,7 @@ export const App = () => {
               </div>
             </div>
             
-            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-slate-300 p-4">
+            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-cyan-800 text-white p-4">
               <div className="font-semibold text-md md:text-md pl-3">
                 Except abc
               </div>
@@ -387,7 +389,7 @@ export const App = () => {
               </div>
             </div>
             
-            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-slate-300 p-4">
+            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-cyan-800 text-white p-4">
               <div className="font-semibold text-md md:text-md pl-3">
                 Capture Group
               </div>
@@ -408,7 +410,7 @@ export const App = () => {
               </div>
             </div>
 
-            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-slate-300 p-4">
+            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-cyan-800 text-white p-4">
               <div className="font-semibold text-md md:text-md pl-3">
                 Group abc or def
               </div>
@@ -429,7 +431,7 @@ export const App = () => {
               </div>
             </div>
 
-            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-slate-300 p-4">
+            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-cyan-800 text-white p-4">
               <div className="font-semibold text-md md:text-md pl-3">
                 Positive Lookahead
               </div>
@@ -450,7 +452,7 @@ export const App = () => {
               </div>
             </div>
 
-            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-slate-300 p-4">
+            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-cyan-800 text-white p-4">
               <div className="font-semibold text-md md:text-md pl-3">
                 Nagative Lookahead
               </div>
@@ -471,7 +473,7 @@ export const App = () => {
               </div>
             </div>
 
-            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-slate-300 p-4">
+            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-cyan-800 text-white p-4">
               <div className="font-semibold text-md md:text-md pl-3">
                 Exactly ten, two or more
               </div>
@@ -498,9 +500,18 @@ export const App = () => {
               </div>
             </div>
 
+            <div className="flex flex-col space-y-2 shadow-lg rounded-lg bg-cyan-800 text-white p-4">
+              <div className="font-semibold text-md md:text-md pl-3">
+                General Email Regex (RFC 5322 Official Standard)
+              </div>
+              <div className="pl-3 text-sm">
+                <CodeBlocks props={`(?:[a-z0-9!#$%&'*+/=?^_\`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_\`{|}~-]+)*|"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])`}/>
+              </div>
+            </div>
+
           </div>
 
-          <div className="flex flex-col space-y-3">
+          <div id="quiz" className="flex flex-col space-y-3">
             <div>
               <ParagraphTitle props={'✏️ Quiz'}/>
             </div>
